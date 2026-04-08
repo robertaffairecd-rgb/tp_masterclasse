@@ -1,1 +1,32 @@
+LES REPONSES D'EXERCICE 1 SUR LA NAVIGATION ET STRUCTURE LINUX
+mkdir -p projet-linux/{scripts,logs,sauvegardes,utilisateurs}
+robertmafouta@ROBERT-MAFOUTA:~$ touch projet-linux/logs/log1.txt
+robertmafouta@ROBERT-MAFOUTA:~$ touch projet-linux/logs/log2.txt
+robertmafouta@ROBERT-MAFOUTA:~$ touch projet-linux/logs/log3.txt
 
+robertmafouta@ROBERT-MAFOUTA:~$ touch projet-linux/scripts/script1.sh
+robertmafouta@ROBERT-MAFOUTA:~$ touch projet-linux/scripts/script2.sh
+
+robertmafouta@ROBERT-MAFOUTA:~$ tree projet-linux
+
+
+projet-linux
+├── logs
+│   ├── log1.txt
+│   ├── log2.txt
+│   └── log3.txt
+├── sauvegardes
+├── scripts
+│   ├── script1.sh
+│   └── script2.sh
+└── utilisateurs
+
+voici les explication des commandes utilisé:
+la commande: mkdir -p projet-linux/{scripts,logs,sauvegardes,utilisateurs} nous permet de creer l'arborescene de : 
+projet-linux ( scripts,logs,sauvergardes, et utilisateur)
+
+
+la commande touch nous aides a creer les fichier logs et scripts
+
+5 directories, 5 files
+ro
