@@ -41,5 +41,13 @@ robertmafouta@ROBERT-MAFOUTA:~$ chmod 750 deploy.sh
 Le mode de permissions sert à controler qui peut lire, ecrire, ou executer un fichier ou un dossier
 
 
+REPONSE SUR L'EXERCICE 3 RECHERCHE AVANCE DES FICHIERS
+
+robertmafouta@ROBERT-MAFOUTA:~$ find . -name "*.log"
+./.docker/desktop/log/host/docker-desktop-user-distro.log
+./.docker/desktop/log/host/docker-desktop.log
+robertmafouta@ROBERT-MAFOUTA:~$ find. -size +5M
+robertmafouta@ROBERT-MAFOUTA:~$ find .-mtme -2
+robertmafouta@ROBERT-MAFOUTA:~$ find . -name "*.tmp"-delete
 
 ro
