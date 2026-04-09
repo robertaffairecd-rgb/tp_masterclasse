@@ -29,4 +29,17 @@ projet-linux ( scripts,logs,sauvergardes, et utilisateur)
 la commande touch nous aides a creer les fichier logs et scripts
 
 5 directories, 5 files
+
+REPONSES SUR L'EXERCICE 2 GESTION DES PERMISSIONS
+
+robertmafouta@ROBERT-MAFOUTA:~$ chmod +x projet-linux/scripts/script1.sh
+robertmafouta@ROBERT-MAFOUTA:~$ touch deploy.sh
+robertmafouta@ROBERT-MAFOUTA:~$ chmod u=rwx deploy.sh
+robertmafouta@ROBERT-MAFOUTA:~$ chmod o= deploy.sh
+robertmafouta@ROBERT-MAFOUTA:~$ chmod 750 deploy.sh
+
+Le mode de permissions sert à controler qui peut lire, ecrire, ou executer un fichier ou un dossier
+
+
+
 ro
